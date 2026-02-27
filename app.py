@@ -164,10 +164,10 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # Nút ẩn Streamlit để nhận tín hiệu từ JS điều hướng trang
 if st.button("BTN_DIAGNOSIS", key="btn_diag"):
-    st.switch_page("pages/01_ai_diagnosis.py")
+    st.switch_page("pages/1_ai_diagnosis.py")
 
 if st.button("BTN_BOOKING", key="btn_book"):
-    st.switch_page("pages/02_booking.py")
+    st.switch_page("pages/2_booking.py")
 
 # Render giao diện HTML chính
 components.html(HOMEPAGE_HTML, height=1000, scrolling=False)
