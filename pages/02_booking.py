@@ -7,7 +7,6 @@ from datetime import date, datetime
 # ==========================================
 st.set_page_config(
     page_title="Skin Clinic AI - Đặt lịch hẹn",
-    page_icon="💎",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
